@@ -1,24 +1,10 @@
-# git-skeleton
+# github-js
 
-The starting point for my Git repositories. It provides the common configuration
-files (`.editorconfig`, `.prettierrc`, `.gitignore`, `.ignore`) that every
-repository shares.
-
-Some ecosystems and projects have their own dedicated skeleton repositories
-that build upon this one and might serve as a better jumping off point. You can
-find those at https://github.com/99linesofcode?tab=repositories&q=skeleton.
+Shared GitHub workflows and other Community Health Files for Node.js/pnpm projects.
 
 ## How to use
 
-1. `git init`
-2. `git remote add origin <REPOSITORY>`
-3. `git remote add git-skeleton git@github.com:99linesofcode/git-skeleton.git`
-4. `git fetch git-skeleton`
-5. `git rebase git-skeleton/main`
-
-Updates flow the same way: `git fetch git-skeleton && git rebase git-skeleton/main`.
-Conflicts on rebase are the divergence points — resolve them by keeping your
-repo's override where it differs from the shared default.
+Simply copy the `.yaml` files you need into your projects `.github` folder. Unfortunately, GitHub doesn't traverse into submodules and we cannot pull these files in as a git submodule.
 
 ## Contributing
 
@@ -28,10 +14,10 @@ Please review the [Contribution Guidelines](https://github.com/99linesofcode/.gi
 
 In order to ensure that the community is welcoming to all, please review and abide by the [Code of Conduct](https://github.com/99linesofcode/.github?tab=coc-ov-file).
 
-## Security vulnerabilities
+## Security Vulnerabilities
 
-Please review the [security policy](https://github.com/99linesofcode/.github?tab=security-ov-file) on how to report security vulnerabilities.
+Please review [the security policy](https://github.com/99linesofcode/.github?tab=security-ov-file) on how to report security vulnerabilities.
 
 ## License
 
-This software is open source and licensed under the [MIT license](https://github.com/99linesofcode/.github?tab=MIT-1-ov-file).
+This software is open source and licensed under the [MIT license](https://github.com/99linesofcode/.github?tab=MIT-1-ov-file)
