@@ -1,4 +1,13 @@
-# 0.1.0 (2026-09-16)
+## [0.1.1](https://github.com/99linesofcode/.github-js/compare/v0.1.0...v0.1.1) (2026-09-21)
+
+
+### Bug Fixes
+
+* **deps:** bump devshell from `31b16bf` to `27205da` ([#4](https://github.com/99linesofcode/.github-js/issues/4)) ([39328d6](https://github.com/99linesofcode/.github-js/commit/39328d6a4e9cdb2b1362e880aa43a3c6ae04aa42))
+
+
+
+# [0.1.0](https://github.com/99linesofcode/.github-js/compare/04134bc2aa8388ee67d85ed7bc073fc979485572...v0.1.0) (2026-09-16)
 
 
 ### Bug Fixes
