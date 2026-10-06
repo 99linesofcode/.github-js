@@ -2,10 +2,9 @@
 
 The architecture document for this repository, following the
 [architecture.md](https://architecture.md) schema — built so an agent (or a
-new colleague) can comprehend the codebase from this file alone, and so the
-architectural principles in the `software-architecture` and
-`software-development` skills are visible in how this repo actually works.
-The Node/TypeScript conventions from
+new colleague) can comprehend the codebase from this file alone, and so this
+repository's own architectural principles are visible in how it actually
+works. The Node/TypeScript conventions from
 [node-skeleton](https://github.com/99linesofcode/node-skeleton) are baked in
 (ARCHITECTURE.md there is the canonical statement). Fill every section;
 update it in the same change that alters the architecture it describes.
